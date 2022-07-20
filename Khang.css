@@ -1,0 +1,87 @@
+* {
+
+    color: rgb(10, 10, 120);
+    background-color: rgb(255,255,252);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: left;
+}
+
+h1 {
+    color: rgb(70, 0 , 250);
+    
+    font-size: xx-large;
+}
+
+h2 {
+    color: rgb(100, 100 , 250);
+    font-size: x-large;
+}
+nav li.active a {
+    color: rgb(250,150,100)
+}
+nav li a:hover{
+    color: rgb(250,10,10)
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Gill Sans;
+    color: black;
+    box-shadow: 1in;
+}
+#CareerStatement {
+    color: pink;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+table tr:nth-child(2n){
+    background-color:aqua;   
+}
+table tr:nth-child(2n+1){
+    color:aquamarine;
+}
+table tr:first-child{
+    color:purple;
+}
+
+ol li {
+    color: green
+}
+ol li:first-of-type{
+    color:red;
+}
+ol li:last-child{
+    color: blue;
+}
+p {
+    color: brown
+}
+em {
+    color:red
+}
+p::first-line{
+    background-color:lightblue;
+}
+p:first-of-type::first-line{
+    background-color: pink;
+}
+p::selection{
+    background-color: yellow;
+}
+input[type="email"]{
+    background-color: yellowgreen;
+}
+input[name="name"]{
+    background-color: pink;
+}
+.error {
+    color:red
+}
+.info {
+    color:blue
+}
+.success {
+    color:greenyellow
+}

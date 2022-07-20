@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <h1>Ahoy!</h1>
+    </header>
+    <nav>
+        <uL>
+        <li><a href="index.html">Go to main page</a></li>
+        <li><a href="Khang.html">Visit the creator</a></li>
+        </uL>
+    </nav>
+    <main>
+        <h2>Contact us</h2>
+        <form action="" method="post" enctype="multipart/form-data"
+        onsubmit="return false;">
+            <div>
+                <label for="ContactPurpose">What's your reason here? </label>
+                <select id="ContactPurpose" name="contact_purpose">
+                    <option value="personal">Personal</option>
+                    <option value="business">Bussiness</option>
+                
+                </select>
+             </div>
+            <div><label for="Firstname"> First name </label><input type="text" id="FirstName" name="First_name"></div>
+            <div><label for="Lastname"> Last name </label><input type="text" id="LastName" name="Last_name"></div>
+            <div><label for="Email">Email</label><input type="email" id="Email" name="Email"></div>
+            <div><label for="PhoneNumber">Phone Number </label><input type="tel" id="PhoneNumber" name="Phonenumber" pattern="[0,9]"></div>
+            <label for="ContactDaysCheckbox">Avalible Days</label>
+            <div id="ContactDaysCheckbox">
+                <span><label for="ContactMon">Monday</label><input type="checkbox" id="ContactMon" name="ContactDay[]" value="monday"></span>
+                <span><label for="ContactTue">Tuesday</label><input type="checkbox" id="ContactTue" name="ContactDay[]" value="tuesday"></span>
+                <span><label for="ContactWed">Wednesday</label><input type="checkbox" id="ContactWed" name="ContactDay[]" value="wednesday"></span>
+                <span><label for="ContactThu">Thursady</label><input type="checkbox" id="ContactThu" name="ContactDay[]" value="thursday"></span>
+                <span><label for="ContactFri">Friday</label><input type="checkbox" id="ContactFri" name="ContactDay[]" value="friday"></span>
+                <span><label for="ContactSat">Saturday</label><input type="checkbox" id="ContactSat" name="ContactDay[]" value="saturday"></span>
+                <span><label for="ContactSun">Sunday</label><input type="checkbox" id="ContactSun" name="ContactDay[]" value="sunday"></span>
+            </div>
+            <div><input type="file" id="FileAttachment" name="Attachment"></div>
+            <div><div>Your message</div><textarea id="message" name="message">Enter the message</textarea></div>
+            <input type="submit" id="Submit" name="submit" value="Send your data">
+            <input type="reset" id="Reset" name="reset" value="Undo your data">
+ 
+        </form>
+    </main>
+    <aside><div><iframe width="30%" height="220" src="https://www.youtube.com/embed/s4T2TgXM1JA" alt="A funny video">Watch this to concentrate</iframe></div></aside>
+    <footer>
+        <div>Thanks for reading this line</div>
+    </footer>
+</body>
+</html>
